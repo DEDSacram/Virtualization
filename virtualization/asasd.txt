@@ -1,0 +1,23 @@
+ 
+https://youtu.be/29S7KReCdu8?feature=shared&t=387
+
+
+
+
+pulseaudio --kill
+
+jack_control start
+
+jack_control exit
+
+pulseaudio --start
+
+
+HUGEPAGES DESTROY MEMORY ALLOC
+
+and
+
+    <audio id="1" type="jack">
+      <input clientName="name" connectPorts="input-name"/>
+      <output clientName="name" connectPorts="output-name"/>
+    </audio>
